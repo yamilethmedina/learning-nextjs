@@ -1,4 +1,4 @@
-import SideNavNoIcon from "../ui/components/sidenav-noicon";
+import SideNavNoIcon from "../ui/components/sidenav-noicon.tsx";
 
 export default function Layout({
   children,
