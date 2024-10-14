@@ -7,6 +7,6 @@ export default function Page({ params }: { params: { id: string } }) {
     <>
       <h1>Post</h1>
 
-      <Post {...post} />
+      {post && <Post {...post} />}
     </>)
 }
